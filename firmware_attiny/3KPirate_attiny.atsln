@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Atmel Studio Solution File, Format Version 11.00
+Project("{54F91283-7BC4-4236-8FF9-10F437C3AD48}") = "3KPirate_attiny", "3KPirate_attiny.cproj", "{0AAADF73-70F0-4C23-875D-53CCE8ABBF9B}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|AVR = Debug|AVR
+		Release|AVR = Release|AVR
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0AAADF73-70F0-4C23-875D-53CCE8ABBF9B}.Debug|AVR.ActiveCfg = Debug|AVR
+		{0AAADF73-70F0-4C23-875D-53CCE8ABBF9B}.Debug|AVR.Build.0 = Debug|AVR
+		{0AAADF73-70F0-4C23-875D-53CCE8ABBF9B}.Release|AVR.ActiveCfg = Release|AVR
+		{0AAADF73-70F0-4C23-875D-53CCE8ABBF9B}.Release|AVR.Build.0 = Release|AVR
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

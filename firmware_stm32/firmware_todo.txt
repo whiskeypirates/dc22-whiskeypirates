@@ -1,0 +1,104 @@
+// stm32 firmware
+[x] temp calibration (201407xx)
+[x] lcd menuing
+    [x] (20140727: mostly done, still in progress)
+    [ ] menus: add name and hex value for programs editor
+    [ ] maybe an option for names longer than 8 characters?
+[x] bone programs
+[x] mic circuit / adc reading
+[x] battery voltage reading
+[x] scaler for lights - add to print function and have some per-mode defines for scaling levels
+ 	do shit like right shift 7 for white in darkness mode
+ 	figure out a way to smoothly transition between modes, maybe do both then
+ 		calculate how far between switching we are to figure out a value
+
+[x] pattern/programs menu:
+	[ ] static (runs a single program)
+	[ ] iterated (runs up to X programs sequentially after a delay)
+	[ ] random (runs up to X programs, selected randomly after a delay)
+	[ ] delay (static delay of X seconds, or random delay)
+[ ] patterns and programs are added to iterated / random menus by type, index, and with their settings
+
+[x] add a settings reset konami code
+        (sort of. hold menu during boot to reset to defaults, hold menu+ok to reset name too)
+
+[/] characterise attiny led reading shit (sort of done)
+[/] light meter: characterize? calibrate? figure out sensitivity?
+[x] light meter: add sensitivity options to menu and / or settings?
+[x] light meter: add auto-sensitivity?
+
+[ ] mic: get percentage, log conversion needed?
+[ ] mic: make calibrator
+
+[ ] programs: make bone programs slave to the skull programs - like calling with the same settings, etc
+[ ] programs: "load defaults" for each program (making it easier to fuck with)
+[ ] programs: either nicer configuration, or help menus describing shit?
+[ ] programs: make a "Run only X program" setting that runs program X, enabled or disabled,
+              for all LED sets. useful for setting up a program as a one-off.
+              Or maybe force for each one, or force all or something...
+
+[ ] bones: implement more programs
+
+[ ] eyes: implement more programs
+[x] eyes: add color support for candle flicker program
+[x] eyes: add solid color with random flashes other color program (options set how often to flash)
+[ ] eyes: add solid plain color program (or color ramp+reset? randflash does solid color already)
+[ ] eyes: add rainbow program
+[ ] eyes programs: setting color to 0x010101 will load the favcolor instead
+
+[ ] bug?: attiny shit doesn't seem to update very often. should be 4x/sec, seems more like 2. why?
+          this is for things like the tempsensor and lightsensor, I think i2c is too busy
+          can maybe fix with only-update-as-necessary LCD routines?
+
+[x] buttons: only next and prev should repeat
+
+[x] lcd shit: set lcd variables to all spaces on startup? (so we can use CGRAM 0x00)
+
+[x] lightscaler: fix bug where when lightscaler is turned off, no lights work
+        (not sure but I think I fixed this)
+
+[ ] shutdown: customizable message? or different settings (threekings, name, custom)
+[x] shutdown: needs to tell the attiny to turn off.
+	attiny can be put into a deep shutdown mode which turns off everything
+	except for TWI (in other words, i2c).
+	done but no idea if it works.
+
+[ ] battery: add a battery-low notifier?
+[ ] battery: add a battery-low mode (no LEDs)?
+
+[x] profiling: fix tim6_count shit (20140727)
+
+[x] infopirate: make it work at least with a fucking static display
+[x] infopirate: make a fixed static mode that can be cycled through
+[ ] infopirate: pressing a button advances to the next display type
+[ ] infopirate: set mode (stepped, random)
+[ ] infopirate: set enabled / disabled views
+[ ] infopirate: editable shit? like editable text? or only hardcoded?
+[ ] infopirate: add battery voltage and temperature to cycle, maybe at the end?
+
+[x] eeprom: implement settings save/restore (20140727)
+[ ] eeprom: separate programs config from settings
+[ ] eeprom: make programs load to RAM when editing, then save back to EEPROM when done
+[ ] eeprom: make programs look at data in EEPROM rather than data in RAM (will save ~1K RAM)
+
+[ ] editor: add bit-editor to hex-editor?
+
+[ ] program sets: remove dwell time, and have a "program" manager that
+    sets programs for LEDs in sync and in X order? allows not requiring
+    duplicating programs if duplicates are necessary?
+
+[ ] i2c: in leiu of a proper interrupt-driven I2C, maybe I could do an
+         interrupt-resuming I2C. the normal waits in use now could put
+         the CPU to sleep, and a watchdog could make sure the MCU wakes
+         up enough to detect a timeout (and maybe use SysTick to determine
+         sleep time). This would save a bit of power and would be easier
+         than a fully interrupt-driven I2C on STM32.
+
+[ ] mic: shout at badge to have it change modes or something?
+
+
+// circuit
+[x] write down all actual used values (wrote part designators on bags; good enough)
+[x] sort out used values into bag
+
+[ ] find out why there is such high power consumption when doing nothing

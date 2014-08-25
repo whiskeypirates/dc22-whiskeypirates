@@ -1,0 +1,53 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<history>
+   <processor signature="4.8.3 -mcpu=cortex-m3 -mthumb -g -nostartfiles -flto -Map=Standalone.map -Os --gc-sections --entry=Reset_Handler -LC:\ArmDevel\CooCox\CoIDE\configuration\ProgramData\3KPirateBoard -TC:\ArmDevel\CooCox\CoIDE\configuration\ProgramData\3KPirateBoard/arm-gcc-link.ld -g">
+      <target file="Standalone.elf" lastModified="147e6d9cfcf">
+         <source file="..\obj\stm32l1xx_gpio.o" lastModified="147e6d92597"/>
+         <source file="..\obj\i2c.o" lastModified="147e6d9275e"/>
+         <source file="..\obj\nrf24l01.o" lastModified="147e6d9283e"/>
+         <source file="..\obj\stm32l1xx_pwr.o" lastModified="147e6d92a5b"/>
+         <source file="..\obj\peter_i2c.o" lastModified="147e6d92d19"/>
+         <source file="..\obj\beep.o" lastModified="147e6d92f5f"/>
+         <source file="..\obj\stm32l1xx_dac.o" lastModified="147e6d93448"/>
+         <source file="..\obj\stm32l1xx_flash.o" lastModified="147e6d93a2e"/>
+         <source file="..\obj\stm32l1xx_aes.o" lastModified="147e6d93d30"/>
+         <source file="..\obj\startup_stm32l1xx_md.o" lastModified="147e6d93d6a"/>
+         <source file="..\obj\stm32l1xx_exti.o" lastModified="147e6d93f64"/>
+         <source file="..\obj\stm32l1xx_crc.o" lastModified="147e6d94135"/>
+         <source file="..\obj\lcd_menu.o" lastModified="147e6d94672"/>
+         <source file="..\obj\stm32l1xx_rcc.o" lastModified="147e6d94bd2"/>
+         <source file="..\obj\system_stm32l1xx.o" lastModified="147e6d95171"/>
+         <source file="..\obj\led_pwm.o" lastModified="147e6d953f3"/>
+         <source file="..\obj\stm32l1xx_flash_ramfunc.o" lastModified="147e6d95670"/>
+         <source file="..\obj\main.o" lastModified="147e6d95a2d"/>
+         <source file="..\obj\pirate.o" lastModified="147e6d95c8d"/>
+         <source file="..\obj\stm32l1xx_adc.o" lastModified="147e6d96026"/>
+         <source file="..\obj\attiny.o" lastModified="147e6d96335"/>
+         <source file="..\obj\menu_settings.o" lastModified="147e6d96755"/>
+         <source file="..\obj\infopirate.o" lastModified="147e6d96a0d"/>
+         <source file="..\obj\gpio.o" lastModified="147e6d96aab"/>
+         <source file="..\obj\stm32l1xx_aes_util.o" lastModified="147e6d96dcb"/>
+         <source file="..\obj\stm32l1xx_syscfg.o" lastModified="147e6d97009"/>
+         <source file="..\obj\stm32l1xx_dma.o" lastModified="147e6d97236"/>
+         <source file="..\obj\lonelywolf_nRF24l01.o" lastModified="147e6d97559"/>
+         <source file="..\obj\adc.o" lastModified="147e6d97740"/>
+         <source file="..\obj\stm32l1xx_usart.o" lastModified="147e6d97a62"/>
+         <source file="..\obj\led_bone.o" lastModified="147e6d97df1"/>
+         <source file="..\obj\stm32l1xx_iwdg.o" lastModified="147e6d97f39"/>
+         <source file="..\obj\led_matrix.o" lastModified="147e6d98344"/>
+         <source file="..\obj\stm32l1xx_spi.o" lastModified="147e6d98638"/>
+         <source file="..\obj\stm32l1xx_i2c.o" lastModified="147e6d989c3"/>
+         <source file="..\obj\lcd.o" lastModified="147e6d98c4f"/>
+         <source file="..\obj\menu_sensors.o" lastModified="147e6d98ea5"/>
+         <source file="..\obj\cgram.o" lastModified="147e6d98f63"/>
+         <source file="..\obj\menu_testing.o" lastModified="147e6d9910b"/>
+         <source file="..\obj\misc.o" lastModified="147e6d9938b"/>
+         <source file="..\obj\stm32l1xx_rtc.o" lastModified="147e6d99dfd"/>
+         <source file="..\obj\stm32l1xx_tim.o" lastModified="147e6d9a57e"/>
+         <source file="..\obj\menu_program.o" lastModified="147e6d9ad6f"/>
+         <source file="..\obj\menu_credits.o" lastModified="147e6d9af02"/>
+         <source file="..\obj\lightsensor.o" lastModified="147e6d9b108"/>
+         <source file="..\obj\stm32l1xx_fsmc.o" lastModified="147e6d9b2d5"/>
+      </target>
+   </processor>
+</history>

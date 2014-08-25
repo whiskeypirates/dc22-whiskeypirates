@@ -1,0 +1,3 @@
+[x] test i2c comms
+[ ] test lightsensor sensitivity setting
+[ ] test all commands

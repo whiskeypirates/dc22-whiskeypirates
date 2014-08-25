@@ -1,0 +1,720 @@
+Archive member included because of file (symbol)
+
+c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-abs.o)
+                              ..\obj\pirate.o (symbol from plugin) (abs)
+c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strcpy.o)
+                              ..\obj\menu_sensors.o (symbol from plugin) (strcpy)
+c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen.o)
+                              ..\obj\lcd_menu.o (symbol from plugin) (strlen)
+c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncat.o)
+                              ..\obj\infopirate.o (symbol from plugin) (strncat)
+c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+                              ..\obj\lcd_menu.o (symbol from plugin) (strncpy)
+
+Allocating common symbols
+Common symbol       size              file
+
+pirate_prng_val     0x4               ..\obj\pirate.o (symbol from plugin)
+temperature         0x1               ..\obj\main.o (symbol from plugin)
+led_matrix_ptrn_name
+                    0x0               ..\obj\menu_program.o (symbol from plugin)
+btn_press           0x8               ..\obj\main.o (symbol from plugin)
+btn_hold            0x8               ..\obj\main.o (symbol from plugin)
+
+Discarded input sections
+
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_gpio.o (symbol from plugin)
+ .text          0x00000000        0x0 R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+ .data          0x00000000        0x0 R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+ .data          0x00000000        0x0 R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+ .data          0x00000000        0x0 R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+ .data          0x00000000        0x0 R:\TEMP~1.USE\ccRNPhPC.ltrans6.ltrans.o
+ .text          0x00000000        0x0 ..\obj\i2c.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\nrf24l01.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_pwr.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\peter_i2c.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\beep.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_dac.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_flash.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_aes.o (symbol from plugin)
+ .text          0x00000000       0x14 ..\obj\startup_stm32l1xx_md.o
+ .data          0x00000000        0x0 ..\obj\startup_stm32l1xx_md.o
+ .bss           0x00000000        0x0 ..\obj\startup_stm32l1xx_md.o
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_exti.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_crc.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\lcd_menu.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_rcc.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\system_stm32l1xx.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\led_pwm.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_flash_ramfunc.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\main.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\pirate.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_adc.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\attiny.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\menu_settings.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\infopirate.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\gpio.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_aes_util.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_syscfg.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_dma.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\lonelywolf_nRF24l01.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\adc.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_usart.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\led_bone.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_iwdg.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\led_matrix.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_spi.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_i2c.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\lcd.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\menu_sensors.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\cgram.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\menu_testing.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\misc.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_rtc.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_tim.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\menu_program.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\menu_credits.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\lightsensor.o (symbol from plugin)
+ .text          0x00000000        0x0 ..\obj\stm32l1xx_fsmc.o (symbol from plugin)
+ .text          0x00000000        0x0 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-abs.o)
+ .data          0x00000000        0x0 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-abs.o)
+ .bss           0x00000000        0x0 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-abs.o)
+ .text          0x00000000        0x0 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strcpy.o)
+ .data          0x00000000        0x0 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strcpy.o)
+ .bss           0x00000000        0x0 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strcpy.o)
+ .text          0x00000000        0x0 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen.o)
+ .data          0x00000000        0x0 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen.o)
+ .bss           0x00000000        0x0 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen.o)
+ .text          0x00000000        0x0 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncat.o)
+ .data          0x00000000        0x0 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncat.o)
+ .bss           0x00000000        0x0 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncat.o)
+ .text          0x00000000        0x0 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+ .data          0x00000000        0x0 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+ .bss           0x00000000        0x0 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+rom              0x08000000         0x00020000         xr
+ram              0x20000000         0x00002800         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+                0x20002800                _eram = 0x20002800
+
+.text           0x08000000     0x6200
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x10c ..\obj\startup_stm32l1xx_md.o
+                0x08000000                g_pfnVectors
+ *(.text*)
+ .text.startup  0x0800010c      0xb28 R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+                0x0800010c                main
+ .text          0x08000c34      0xa74 R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+                0x08000c34                TIM6_IRQHandler
+ .text          0x080016a8      0xf3c R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+                0x080016a8                led_prog_loops.7394
+                0x080017b4                led_prog_loops_rotate.7396
+                0x08001800                led_prog_debug.7392
+                0x08001864                led_prog_updown
+                0x0800194c                led_prog_loops.7188
+                0x08001a10                led_prog_all_on.7186
+                0x08001a40                menu_infopirate_btn_ok
+                0x08001a42                menu_infopirate_btn_next
+                0x08001a44                menu_infopirate_btn_prev
+                0x08001a46                menu_pref_brite_lcd_auto_set.6299
+                0x08001a60                menu_pref_brite_auto_spd_set.6296
+                0x08001a80                menu_pref_brite_auto_ena_set.6293
+                0x08001a9c                menu_pref_beepena_set.6290
+                0x08001ab8                menu_pref_alwaysrun_tog.6287
+                0x08001ad4                menu_pref_autorun_set.6284
+                0x08001af0                menu_pref_run_prog_disp
+                0x08001b34                led_prog_rand_on_rand_off.7402
+                0x08001c2c                led_prog_candle_flicker.6154
+                0x08001cdc                led_prog_candle_flicker_favcolor.6156
+                0x08001d0c                led_prog_randflasher.6152
+                0x08001d98                led_eyes_set_program.part.0.6158
+                0x08001db4                pirate_sitoa
+                0x08001e28                menu_pref_disp.6313
+                0x08001f7c                pirate_scale
+                0x08001faa                led_prog_loops_mic.7400
+                0x0800203c                led_prog_mic_spl_meter.7398
+                0x0800212c                led_prog_mic_spl.6150
+                0x08002228                led_pwm_set_oc
+                0x08002264                SystemCoreClockUpdate
+                0x080022f0                lcd_menu_linescroll.4958
+                0x080023d8                FLASH_GetStatus
+                0x08002400                beep
+                0x08002458                menu_btn_ok
+                0x080024c8                menu_btn_prev
+                0x0800250c                menu_btn_next
+                0x08002550                GPIO_PinAFConfig
+                0x08002574                GPIO_Init
+ .text          0x080025e4      0xec8 R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+                0x0800266c                prog_edit_tog_force_init
+                0x080026a8                prog_edit_tog_type
+                0x080026e4                prog_edit_tog_enable
+                0x08002720                prog_edit_tog_mode
+                0x08002796                menu_settings_save
+                0x08002800                menu_edit_prev
+                0x08002968                menu_btn_prog_next.9117
+                0x08002a90                infopirate_prog_nameonly
+                0x08002ad0                prog_advanced_str
+                0x08002c94                prog_dwell_str
+                0x08002d04                prog_type_edit_str
+                0x08002dac                menu_prog_disp
+                0x08002f44                lcd_menu_testing_settings_bytes.8222
+                0x08002f74                lcd_menu_testing_buzzer.8219
+                0x08002f7e                lcd_menu_testing_matrix.8216
+                0x08002f88                lcd_menu_testing_boneled.8211
+                0x08002f92                menu_sensor_temp_disp
+                0x08003058                menu_sensor_batt_disp
+                0x080030f4                menu_sensor_mic_disp
+                0x08003128                menu_sens_disp
+                0x080031e0                I2C_CheckEvent.constprop.52
+                0x08003200                I2C_check_dev.4318
+                0x08003278                I2C_restart.4324.constprop.42
+                0x080032ec                I2C_start.4329.constprop.41
+                0x08003310                I2C_write.4307.constprop.50
+                0x08003338                NVIC_Init.part.0.8286.constprop.29
+                0x08003388                menu_prog_hexedit_adj.9086
+                0x08003440                lcd_led_update
+ .text          0x080034ac      0xeb0 R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+                0x080034ac                menu_pref_name_start.6306
+                0x08003544                menu_sensor_mic_cal_start
+                0x08003574                menu_edit_start
+                0x08003640                infopirate_prog_logo01
+                0x080038e8                menu_prog_hexedit_next.9115
+                0x080039c4                menu_prog_hexedit_prev.9109
+                0x08003a9c                menu_prog_edit_start
+                0x08003b88                menu_prog_hexedit_menu.9111
+                0x08003c40                menu_btn_prog_ok.9119
+                0x08003cf4                infopirate_prog_scroll_name_out_left
+                0x08003d74                infopirate_prog_logo02
+                0x08003e34                infopirate_prog_scroll_name_in_left
+                0x08003eb4                menu_btntype_menus
+                0x08003ff0                menu_btn_prog_menu.9121
+                0x08004158                menu_btn_menu
+                0x080041b8                I2C_WriteTransfer
+                0x08004284                lcd_print.constprop.26
+                0x080042b0                attiny_write_light_sensitivity.constprop.23
+                0x080042d2                lcd_cmd
+                0x080042ec                led_eyes_tx
+ .text          0x0800435c      0x790 R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+                0x0800435c                menu_root_run
+                0x080043e8                menu_prog_hexedit_start.9106
+                0x080044f4                menu_prog_enter_led.9145
+                0x0800455c                menu_pref_name_ok
+                0x08004604                menu_btn_prog_prev.9123
+                0x0800470c                menu_pref_favcolor_start.6316
+                0x0800474c                pirate_shutdown
+                0x080047d0                SystemInit
+                0x080048e4                attiny_read.6141.constprop.25
+                0x08004974                led_pwm_init.constprop.30
+ .text          0x08004aec       0x28 R:\TEMP~1.USE\ccRNPhPC.ltrans6.ltrans.o
+                0x08004aec                ADC1_IRQHandler
+ .text.Reset_Handler
+                0x08004b14       0x4c ..\obj\startup_stm32l1xx_md.o
+                0x08004b14                Reset_Handler
+ .text.Default_Handler
+                0x08004b60        0x4 ..\obj\startup_stm32l1xx_md.o
+                0x08004b60                RTC_Alarm_IRQHandler
+                0x08004b60                EXTI2_IRQHandler
+                0x08004b60                DebugMon_Handler
+                0x08004b60                HardFault_Handler
+                0x08004b60                TIM10_IRQHandler
+                0x08004b60                USB_HP_IRQHandler
+                0x08004b60                SysTick_Handler
+                0x08004b60                PVD_IRQHandler
+                0x08004b60                PendSV_Handler
+                0x08004b60                NMI_Handler
+                0x08004b60                EXTI3_IRQHandler
+                0x08004b60                EXTI0_IRQHandler
+                0x08004b60                I2C2_EV_IRQHandler
+                0x08004b60                UsageFault_Handler
+                0x08004b60                SPI1_IRQHandler
+                0x08004b60                USB_FS_WKUP_IRQHandler
+                0x08004b60                DMA1_Channel4_IRQHandler
+                0x08004b60                USART3_IRQHandler
+                0x08004b60                DMA1_Channel7_IRQHandler
+                0x08004b60                LCD_IRQHandler
+                0x08004b60                TIM4_IRQHandler
+                0x08004b60                I2C1_EV_IRQHandler
+                0x08004b60                DMA1_Channel6_IRQHandler
+                0x08004b60                TIM3_IRQHandler
+                0x08004b60                RCC_IRQHandler
+                0x08004b60                DMA1_Channel1_IRQHandler
+                0x08004b60                Default_Handler
+                0x08004b60                EXTI15_10_IRQHandler
+                0x08004b60                TIM7_IRQHandler
+                0x08004b60                EXTI9_5_IRQHandler
+                0x08004b60                TIM9_IRQHandler
+                0x08004b60                TAMPER_STAMP_IRQHandler
+                0x08004b60                RTC_WKUP_IRQHandler
+                0x08004b60                SPI2_IRQHandler
+                0x08004b60                MemManage_Handler
+                0x08004b60                SVC_Handler
+                0x08004b60                DMA1_Channel5_IRQHandler
+                0x08004b60                USB_LP_IRQHandler
+                0x08004b60                EXTI4_IRQHandler
+                0x08004b60                DMA1_Channel3_IRQHandler
+                0x08004b60                COMP_IRQHandler
+                0x08004b60                WWDG_IRQHandler
+                0x08004b60                TIM2_IRQHandler
+                0x08004b60                DAC_IRQHandler
+                0x08004b60                EXTI1_IRQHandler
+                0x08004b60                TIM11_IRQHandler
+                0x08004b60                USART2_IRQHandler
+                0x08004b60                I2C2_ER_IRQHandler
+                0x08004b60                DMA1_Channel2_IRQHandler
+                0x08004b60                FLASH_IRQHandler
+                0x08004b60                BusFault_Handler
+                0x08004b60                USART1_IRQHandler
+                0x08004b60                I2C1_ER_IRQHandler
+ .text.abs      0x08004b64        0x8 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-abs.o)
+                0x08004b64                abs
+ .text.strcpy   0x08004b6c       0xbc c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strcpy.o)
+                0x08004b6c                strcpy
+ .text.strlen   0x08004c28       0x60 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen.o)
+                0x08004c28                strlen
+ .text.strncat  0x08004c88       0x64 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncat.o)
+                0x08004c88                strncat
+ .text.strncpy  0x08004cec       0x64 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+                0x08004cec                strncpy
+ *(.init)
+ *(.fini)
+ *crtbegin.o(.ctors)
+ *crtbegin?.o(.ctors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
+ *(SORT(.ctors.*))
+ *(.ctors)
+ *crtbegin.o(.dtors)
+ *crtbegin?.o(.dtors)
+ *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
+ *(SORT(.dtors.*))
+ *(.dtors)
+ *(.rodata*)
+ .rodata        0x08004d50        0x9 R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+ .rodata.str1.1
+                0x08004d59        0x9 R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+ *fill*         0x08004d62        0x2 
+ .rodata        0x08004d64      0xd18 R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+                0x08004d64                btn.5745
+                0x08004dc0                led_bone_col_gpio.7295
+                0x08004dd8                menu_runitem
+                0x08004e08                menu_pref_ritem
+                0x08004ecc                led_program_list.6238
+                0x08004edc                menu_sens_set_micdata
+                0x08004f0c                menu_sens_set_lightdata
+                0x08004f3c                menu_sens_set_micitem
+                0x08004f64                menu_sens_setdata
+                0x08004fac                menu_sens_set_lightitem
+                0x08004fe8                menu_sens_viewdata
+                0x08005090                menu_cred_rdata
+                0x08005198                menu_test_rdata
+                0x08005210                menu_sens_setitem
+                0x0800524c                menu_sens_rdata
+                0x0800527c                menu_sens_viewitem
+                0x08005308                menu_prog_rdata
+                0x08005368                menu_pref_britedata
+                0x08005470                menu_pref_beepdata
+                0x080054b8                menu_pref_favcdata
+                0x08005500                menu_pref_namedata
+                0x08005518                menu_cred_ritem
+                0x080055f4                menu_test_ritem
+                0x08005658                menu_sens_ritem
+                0x08005680                menu_prog_ritem
+                0x080056d0                menu_rdata
+                0x08005790                menu_pref_briteitem
+                0x0800586c                menu_pref_beepitem
+                0x080058a8                menu_pref_favcitem
+                0x080058e4                menu_pref_rdata
+                0x080059a4                menu_pref_nameitem
+                0x080059b8                menu_rundata
+                0x080059d0                menu_ritem
+                0x08005a70                led_col_pin_mask.7553
+                0x08005a74                led_col_port.7554
+ .rodata.str1.1
+                0x08005a7c      0x304 R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+                                0x305 (size before relaxing)
+ .rodata        0x08005d80       0x10 R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+ .rodata.str1.1
+                0x08005d90       0x5d R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+                                 0x6b (size before relaxing)
+ *fill*         0x08005ded        0x3 
+ .rodata        0x08005df0       0xe0 R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+ .rodata.str1.1
+                0x08005ed0       0x49 R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+                                 0x6f (size before relaxing)
+ .rodata        0x08005f19       0x25 R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+ .rodata.str1.1
+                0x08005f3e       0x12 R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+                                 0x1b (size before relaxing)
+ .rodata        0x08005f50      0x250 R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+                0x08005f50                menu_prog_ledaitem
+                0x08005f64                menu_prog_leditem
+                0x08006040                cgram_crown
+                0x08006080                menu_prog_ledadata
+                0x08006098                menu_prog_leddata
+ .rodata.str1.1
+                0x080061a0       0x60 R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+                                 0x6a (size before relaxing)
+ *(.eh_fram e*)
+
+.glue_7         0x08006200        0x0
+ .glue_7        0x00000000        0x0 linker stubs
+
+.glue_7t        0x08006200        0x0
+ .glue_7t       0x00000000        0x0 linker stubs
+
+.vfp11_veneer   0x08006200        0x0
+ .vfp11_veneer  0x00000000        0x0 linker stubs
+
+.v4_bx          0x08006200        0x0
+ .v4_bx         0x00000000        0x0 linker stubs
+
+.iplt           0x08006200        0x0
+ .iplt          0x00000000        0x0 ..\obj\startup_stm32l1xx_md.o
+
+.rel.dyn        0x08006200        0x0
+ .rel.iplt      0x00000000        0x0 ..\obj\startup_stm32l1xx_md.o
+
+.ARM.extab
+ *(.ARM.extab* .gnu.linkonce.armextab.*)
+                0x08006200                __exidx_start = .
+
+.ARM.exidx
+ *(.ARM.exidx* .gnu.linkonce.armexidx.*)
+                0x08006200                __exidx_end = .
+                0x08006200                __etext = .
+                0x08006200                _sidata = __etext
+
+.data           0x20000000       0x40 load address 0x08006200
+                0x20000000                __data_start__ = .
+                0x20000000                _sdata = __data_start__
+ *(vtable)
+ *(.data*)
+ .data          0x20000000       0x20 R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+                0x2000001c                SystemCoreClock
+ .data          0x20000020       0x19 R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+ *fill*         0x20000039        0x1 
+ .data          0x2000003a        0x4 R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+                0x2000003a                line_idx.5051
+                0x20000040                . = ALIGN (0x4)
+ *fill*         0x2000003e        0x2 
+                0x20000040                PROVIDE (__preinit_array_start, .)
+ *(.preinit_array)
+                0x20000040                PROVIDE (__preinit_array_end, .)
+                0x20000040                . = ALIGN (0x4)
+                0x20000040                PROVIDE (__init_array_start, .)
+ *(SORT(.init_array.*))
+ *(.init_array)
+                0x20000040                PROVIDE (__init_array_end, .)
+                0x20000040                . = ALIGN (0x4)
+                0x20000040                PROVIDE (__fini_array_start, .)
+ *(SORT(.fini_array.*))
+ *(.fini_array)
+                0x20000040                PROVIDE (__fini_array_end, .)
+ *(.jcr*)
+                0x20000040                . = ALIGN (0x4)
+                0x20000040                __data_end__ = .
+                0x20000040                _edata = __data_end__
+
+.igot.plt       0x20000040        0x0 load address 0x08006240
+ .igot.plt      0x00000000        0x0 ..\obj\startup_stm32l1xx_md.o
+
+.bss            0x20000040      0x66c load address 0x08006240
+                0x20000040                . = ALIGN (0x4)
+                0x20000040                __bss_start__ = .
+                0x20000040                _sbss = __bss_start__
+ *(.bss*)
+ .bss           0x20000040       0x6c R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+                0x20000049                light_level
+                0x2000004b                pirate_temp_history.5920
+                0x2000005f                lcd_cgram_len
+                0x20000060                lcd_height.8083
+                0x20000064                lcd_cgram
+                0x20000068                lcd_cursor_type.8085
+                0x20000069                lcd_cursor_pos.8084
+                0x2000006c                pirate_batt_history.5918
+ .bss           0x200000ac      0x554 R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+                0x200000ac                tim6_count
+                0x200000b0                lcd_btn_fn
+                0x200000d0                mic_peak
+                0x200000d4                settings
+                0x2000049c                light_gain
+                0x2000049d                lev_set.9388
+                0x200004a2                lcd_led_level_set.8088
+                0x200004a4                lcd_led_rate.8089
+                0x200004a5                lcd_led_upd.8054
+                0x200004b0                led_level.7509
+                0x200004e0                led_level.7279
+                0x200004f1                led_eyes_mode.6237
+                0x200004f4                led_program.6236
+                0x200004f8                led_level.6234
+                0x20000500                beep_buf_idx.4416
+                0x20000501                beep_play_idx.4415
+                0x20000502                beep_dur_buf.4417
+                0x20000512                beep_lev_buf.4418
+                0x20000524                menuc
+                0x20000528                infopirate_prog.6473
+                0x2000052c                prog_idx.6471
+                0x2000052d                prog_loop.6470
+                0x2000052e                prog_wait.6469
+                0x20000530                lcd_line
+                0x20000543                lcd_fn_output.5047
+                0x20000584                tim6_usage
+                0x20000588                menu_mode
+                0x20000589                prog_id
+                0x2000058c                prog_dwell
+                0x20000592                prog_type.9192
+                0x20000593                prog_idx.9193
+                0x20000594                led_prog_set_wait.7504
+                0x20000596                led_prog_set_level.7508
+                0x20000598                led_prog_set_offset.7506
+                0x2000059c                led_prog_set_option.7511
+                0x200005a0                led_prog_wait.7505
+                0x200005a4                led_prog_state.7507
+                0x200005b4                led_prog_work.7510
+                0x200005c4                led_prog_set_wait.7280
+                0x200005c6                led_prog_set_level.7278
+                0x200005c8                led_prog_set_offset.7282
+                0x200005cc                led_prog_set_option.7284
+                0x200005d0                led_prog_wait.7277
+                0x200005d4                led_prog_state.7281
+                0x200005e4                led_prog_work.7283
+                0x200005f4                led_prog_set_wait.6198
+                0x200005f6                led_prog_set_level.6232
+                0x200005f8                led_prog_set_offset.6201
+                0x200005fc                led_prog_set_option.6199
+ .bss           0x20000600       0x38 R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+ .bss           0x20000638       0x3a R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+ *fill*         0x20000672        0x2 
+ .bss           0x20000674       0x1c R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+                0x20000674                temperature_cal
+ .bss           0x20000690       0x14 R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+                0x20000690                menu_newval
+                0x20000694                menu_editing
+                0x20000698                menu_oldval
+                0x2000069e                line_time.5050
+ .bss           0x200006a4        0x8 R:\TEMP~1.USE\ccRNPhPC.ltrans6.ltrans.o
+                0x200006a4                adc_chan.6994
+                0x200006a6                adc_result
+ *(COMMON)
+                0x200006ac                . = ALIGN (0x4)
+                0x200006ac                __bss_end__ = .
+                0x200006ac                _ebss = __bss_end__
+
+.heap           0x200006ac        0x0
+                0x200006ac                __end__ = .
+                0x200006ac                _end = __end__
+                0x200006ac                end = __end__
+ *(.heap*)
+                0x200006ac                __HeapLimit = .
+
+.co_stack       0x200006ac        0x4 load address 0x080068ac
+                0x200006b0                . = ALIGN (0x8)
+ *fill*         0x200006ac        0x4 
+ *(.co_stack .co_stack.*)
+                0x20002800                __StackTop = (ORIGIN (ram) + 0x2800)
+                0x200027fc                __StackLimit = (__StackTop - SIZEOF (.co_stack))
+                0x20002800                PROVIDE (__stack, __StackTop)
+                0x00000001                ASSERT ((__StackLimit >= __HeapLimit), region ram  overflowed with stack)
+LOAD ..\obj\stm32l1xx_gpio.o
+LOAD R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+LOAD R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+LOAD R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+LOAD R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+LOAD R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+LOAD R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+LOAD R:\TEMP~1.USE\ccRNPhPC.ltrans6.ltrans.o
+LOAD c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m\libgcc.a
+LOAD c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a
+LOAD c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a
+LOAD ..\obj\i2c.o
+LOAD ..\obj\nrf24l01.o
+LOAD ..\obj\stm32l1xx_pwr.o
+LOAD ..\obj\peter_i2c.o
+LOAD ..\obj\beep.o
+LOAD ..\obj\stm32l1xx_dac.o
+LOAD ..\obj\stm32l1xx_flash.o
+LOAD ..\obj\stm32l1xx_aes.o
+LOAD ..\obj\startup_stm32l1xx_md.o
+LOAD ..\obj\stm32l1xx_exti.o
+LOAD ..\obj\stm32l1xx_crc.o
+LOAD ..\obj\lcd_menu.o
+LOAD ..\obj\stm32l1xx_rcc.o
+LOAD ..\obj\system_stm32l1xx.o
+LOAD ..\obj\led_pwm.o
+LOAD ..\obj\stm32l1xx_flash_ramfunc.o
+LOAD ..\obj\main.o
+LOAD ..\obj\pirate.o
+LOAD ..\obj\stm32l1xx_adc.o
+LOAD ..\obj\attiny.o
+LOAD ..\obj\menu_settings.o
+LOAD ..\obj\infopirate.o
+LOAD ..\obj\gpio.o
+LOAD ..\obj\stm32l1xx_aes_util.o
+LOAD ..\obj\stm32l1xx_syscfg.o
+LOAD ..\obj\stm32l1xx_dma.o
+LOAD ..\obj\lonelywolf_nRF24l01.o
+LOAD ..\obj\adc.o
+LOAD ..\obj\stm32l1xx_usart.o
+LOAD ..\obj\led_bone.o
+LOAD ..\obj\stm32l1xx_iwdg.o
+LOAD ..\obj\led_matrix.o
+LOAD ..\obj\stm32l1xx_spi.o
+LOAD ..\obj\stm32l1xx_i2c.o
+LOAD ..\obj\lcd.o
+LOAD ..\obj\menu_sensors.o
+LOAD ..\obj\cgram.o
+LOAD ..\obj\menu_testing.o
+LOAD ..\obj\misc.o
+LOAD ..\obj\stm32l1xx_rtc.o
+LOAD ..\obj\stm32l1xx_tim.o
+LOAD ..\obj\menu_program.o
+LOAD ..\obj\menu_credits.o
+LOAD ..\obj\lightsensor.o
+LOAD ..\obj\stm32l1xx_fsmc.o
+START GROUP
+LOAD c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/armv7-m\libgcc.a
+LOAD c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a
+LOAD c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libc.a
+END GROUP
+OUTPUT(Standalone.elf elf32-littlearm)
+
+.debug_info     0x00000000     0xa91b
+ .debug_info    0x00000000     0x268f R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+ .debug_info    0x0000268f     0x2710 R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+ .debug_info    0x00004d9f     0x1477 R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+ .debug_info    0x00006216     0x18c3 R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+ .debug_info    0x00007ad9     0x136f R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+ .debug_info    0x00008e48     0x16eb R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+ .debug_info    0x0000a533      0x2c0 R:\TEMP~1.USE\ccRNPhPC.ltrans6.ltrans.o
+ .debug_info    0x0000a7f3      0x128 ..\obj\startup_stm32l1xx_md.o
+
+.debug_abbrev   0x00000000     0x1d17
+ .debug_abbrev  0x00000000      0x422 R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+ .debug_abbrev  0x00000422      0x3ee R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+ .debug_abbrev  0x00000810      0x496 R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+ .debug_abbrev  0x00000ca6      0x506 R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+ .debug_abbrev  0x000011ac      0x530 R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+ .debug_abbrev  0x000016dc      0x4de R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+ .debug_abbrev  0x00001bba      0x14b R:\TEMP~1.USE\ccRNPhPC.ltrans6.ltrans.o
+ .debug_abbrev  0x00001d05       0x12 ..\obj\startup_stm32l1xx_md.o
+
+.debug_loc      0x00000000     0x4c22
+ .debug_loc     0x00000000      0x9a2 R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+ .debug_loc     0x000009a2     0x12e1 R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+ .debug_loc     0x00001c83      0xf05 R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+ .debug_loc     0x00002b88      0xe7b R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+ .debug_loc     0x00003a03      0x8d2 R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+ .debug_loc     0x000042d5      0x935 R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+ .debug_loc     0x00004c0a       0x18 R:\TEMP~1.USE\ccRNPhPC.ltrans6.ltrans.o
+
+.debug_aranges  0x00000000      0x108
+ .debug_aranges
+                0x00000000       0x20 R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+ .debug_aranges
+                0x00000020       0x20 R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+ .debug_aranges
+                0x00000040       0x20 R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+ .debug_aranges
+                0x00000060       0x20 R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+ .debug_aranges
+                0x00000080       0x20 R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+ .debug_aranges
+                0x000000a0       0x20 R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+ .debug_aranges
+                0x000000c0       0x20 R:\TEMP~1.USE\ccRNPhPC.ltrans6.ltrans.o
+ .debug_aranges
+                0x000000e0       0x28 ..\obj\startup_stm32l1xx_md.o
+
+.debug_ranges   0x00000000      0x9b8
+ .debug_ranges  0x00000000      0x418 R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+ .debug_ranges  0x00000418      0x2a8 R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+ .debug_ranges  0x000006c0       0x58 R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+ .debug_ranges  0x00000718       0xa8 R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+ .debug_ranges  0x000007c0       0xf0 R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+ .debug_ranges  0x000008b0       0xd0 R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+ .debug_ranges  0x00000980       0x18 R:\TEMP~1.USE\ccRNPhPC.ltrans6.ltrans.o
+ .debug_ranges  0x00000998       0x20 ..\obj\startup_stm32l1xx_md.o
+
+.debug_line     0x00000000     0x4089
+ .debug_line    0x00000000      0xd29 R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+ .debug_line    0x00000d29      0xad6 R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+ .debug_line    0x000017ff      0xa13 R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+ .debug_line    0x00002212      0x94a R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+ .debug_line    0x00002b5c      0x812 R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+ .debug_line    0x0000336e      0x965 R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+ .debug_line    0x00003cd3      0x2d3 R:\TEMP~1.USE\ccRNPhPC.ltrans6.ltrans.o
+ .debug_line    0x00003fa6       0xe3 ..\obj\startup_stm32l1xx_md.o
+
+.debug_str      0x00000000     0x30f7
+ .debug_str     0x00000000      0xfa5 R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+                               0x100b (size before relaxing)
+ .debug_str     0x00000fa5      0xdee R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+                               0x1195 (size before relaxing)
+ .debug_str     0x00001d93      0x62c R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+                                0xc28 (size before relaxing)
+ .debug_str     0x000023bf      0x548 R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+                                0x92d (size before relaxing)
+ .debug_str     0x00002907      0x3cc R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+                                0x7d8 (size before relaxing)
+ .debug_str     0x00002cd3      0x3a4 R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+                                0xa02 (size before relaxing)
+ .debug_str     0x00003077       0x80 R:\TEMP~1.USE\ccRNPhPC.ltrans6.ltrans.o
+                                0x208 (size before relaxing)
+
+.comment        0x00000000       0x70
+ .comment       0x00000000       0x70 R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+                                 0x71 (size before relaxing)
+ .comment       0x00000000       0x71 R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+ .comment       0x00000000       0x71 R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+ .comment       0x00000000       0x71 R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+ .comment       0x00000000       0x71 R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+ .comment       0x00000000       0x71 R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+ .comment       0x00000000       0x71 R:\TEMP~1.USE\ccRNPhPC.ltrans6.ltrans.o
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x31 R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+ .ARM.attributes
+                0x00000031       0x31 R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+ .ARM.attributes
+                0x00000062       0x31 R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+ .ARM.attributes
+                0x00000093       0x31 R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+ .ARM.attributes
+                0x000000c4       0x31 R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+ .ARM.attributes
+                0x000000f5       0x31 R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+ .ARM.attributes
+                0x00000126       0x31 R:\TEMP~1.USE\ccRNPhPC.ltrans6.ltrans.o
+ .ARM.attributes
+                0x00000157       0x21 ..\obj\startup_stm32l1xx_md.o
+ .ARM.attributes
+                0x00000178       0x2d c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-abs.o)
+ .ARM.attributes
+                0x000001a5       0x2d c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strcpy.o)
+ .ARM.attributes
+                0x000001d2       0x2d c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen.o)
+ .ARM.attributes
+                0x000001ff       0x2d c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncat.o)
+ .ARM.attributes
+                0x0000022c       0x2d c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
+
+.debug_frame    0x00000000      0xb5c
+ .debug_frame   0x00000000       0x38 R:\TEMP~1.USE\ccRNPhPC.ltrans0.ltrans.o
+ .debug_frame   0x00000038       0x38 R:\TEMP~1.USE\ccRNPhPC.ltrans1.ltrans.o
+ .debug_frame   0x00000070      0x378 R:\TEMP~1.USE\ccRNPhPC.ltrans2.ltrans.o
+ .debug_frame   0x000003e8      0x2d8 R:\TEMP~1.USE\ccRNPhPC.ltrans3.ltrans.o
+ .debug_frame   0x000006c0      0x2b4 R:\TEMP~1.USE\ccRNPhPC.ltrans4.ltrans.o
+ .debug_frame   0x00000974      0x108 R:\TEMP~1.USE\ccRNPhPC.ltrans5.ltrans.o
+ .debug_frame   0x00000a7c       0x28 R:\TEMP~1.USE\ccRNPhPC.ltrans6.ltrans.o
+ .debug_frame   0x00000aa4       0x20 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-abs.o)
+ .debug_frame   0x00000ac4       0x20 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strcpy.o)
+ .debug_frame   0x00000ae4       0x20 c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strlen.o)
+ .debug_frame   0x00000b04       0x2c c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncat.o)
+ .debug_frame   0x00000b30       0x2c c:/armdevel/compilers/gcc_4.8_2014q1/bin/../lib/gcc/arm-none-eabi/4.8.3/../../../../arm-none-eabi/lib/armv7-m\libg.a(lib_a-strncpy.o)
