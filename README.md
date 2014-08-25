@@ -1,0 +1,31 @@
+Whiskey Pirates DC22 Badge (codename "Three Kings")
+by the Whiskey Pirate Crew
+http://www.whiskeypirates.com/
+Thanks to all the great people who made this defcon
+worth attending. See all of you next year.
+STM32 firmware was developed in CooCox IDE / GCC
+http://www.coocox.org/
+https://launchpad.net/gcc-arm-embedded
+ATtiny88 firmware was developed in Atmel Studio 6.2
+http://www.atmel.com/ by the way fuck Atmel
+Yeah, all this shit is Windows. Windows isn't required
+to build this firmware but it is up to you to get
+your ARM and AVR toolchains together to build it.
+Use any ST Discovery or Nucleo board to program and
+debug the STM32. Cost is ~$8-15 and you get a devboard.
+Use an expensive Atmel debugger to debug the ATtiny88.
+The code is pretty simple though so maybe you can
+just simulate it instead. You can use a USBasp to
+program the ATtiny88; cost is ~$3-8.
+Binaries are provided and compiled from this source.
+STM32 compiled firmware:
+firmware_stm32/build/Standalone/Debug/bin
+ATtiny88 compiled firmware:
+firmware_attiny/Debug
+Schematic shows all connections as expected on PCB.
+This was a learning project for a Whiskey Pirate
+so I made it easy for him to understand. I'm also
+a low level electrical wizard so I don't know what
+I am doing.
+Forgive the shit code, I don't know what I'm doing.
+-- true
